@@ -1,0 +1,12 @@
+body{
+    /* font-family: 'Quicksand', sans-serif; */
+    font-family: 'Lobster', sans-serif;
+}
+.fa-user{
+    position: absolute;
+    top:11%;
+    left: 6%;
+}
+#frame{
+    position: relative;
+}
