@@ -1,0 +1,54 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#main > div{
+    width: 30%;
+    height: 1080px;
+    /* background-color: black; */
+    overflow: hidden;
+}
+#main >div >img{
+    height: 150px;
+    width: 100%;
+    transition: 2s;
+
+
+}
+#main > div > img:hover{
+    transform: scale(1.1);
+    /* transition: 2s; */
+
+}
+#main >div >h3{
+    /* width: 0%; */
+    /* background-color: black; */
+    font-size: 40px;
+    text-align: center;
+}
+#main div h4{
+    /* width: 0%; */
+    /* background-color: black; */
+    font-size: 25px;
+    text-align: left;
+}
+#main >div >button{
+    /* width: 0%; */
+    /* background-color: black; */
+    /* font-size: 40px; */
+    width: 100%;
+}
+.abc{
+    display: flex;
+    justify-content: space-between;
+}

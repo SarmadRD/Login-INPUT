@@ -1,0 +1,170 @@
+body{
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    background-image: url(Images/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+    width: 10%;
+    height: 30.5vh;
+}
+#main{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid black; */
+}
+a{
+    text-decoration: none;
+    color: white;
+    /* background-color: black; */
+    padding: 20px;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+}
+a:hover{
+    color: white;
+    background-color: black;
+}
+#first{
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    left: 100%;
+    top: 0%;
+    display: none;
+    background-color: grey;
+
+}
+#veg{
+    position: relative;
+    /* background-color: grey; */
+}
+#veg:hover #first{
+    display: block;
+}
+#Second{
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    left: 100%;
+    top: 0%;
+    display: none;
+    background-color: grey;
+
+}
+#non{
+    position: relative;
+}
+#non:hover #Second{
+    display: block;
+}
+#a{
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    left: 100%;
+    top: 0%;
+    display: none;
+    width: 150px;
+    background-color: grey;
+
+}
+#A{
+    position: relative;
+}
+#A:hover #a{
+    display: block;
+}
+#b{
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    left: 100%;
+    top: 0%;
+    display: none;
+    background-color: grey;
+
+}
+#B{
+    position: relative;
+}
+#B:hover #b{
+    display: block;
+}
+#c{
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    left: 100%;
+    top: 0%;
+    display: none;
+    background-color: grey;
+
+}
+#C{
+    position: relative;
+}
+#C:hover #c{
+    display: block;
+}
+#d{
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    left: 100%;
+    top: 0%;
+    display: none;
+    background-color: grey;
+
+}
+#D{
+    position: relative;
+}
+#D:hover #d{
+    display: block;
+}
+#e{
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    left: 100%;
+    top: 0%;
+    display: none;
+    width: 180px;
+    background-color: grey;
+
+}
+#E{
+    position: relative;
+}
+#E:hover #e{
+    display: block;
+}
+#f{
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    left: 100%;
+    top: 0%;
+    display: none;
+    background-color: grey;
+
+}
+#F{
+    position: relative;
+}
+#F:hover #f{
+    display: block;
+}
+.x{
+    /* background-color: red; */
+    border-bottom: 2px solid black;
+
+}
